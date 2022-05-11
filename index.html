@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Acme&family=Merriweather:wght@300&family=Permanent+Marker&family=Poppins&family=Roboto+Slab&family=Sansita+Swashed:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Bienvenido - Tienda Online</title>
+</head>
+<body>
+
+	<header class="encabezado">
+		
+		<div>
+			<h1 class="titulo__pagina">Tienda Online</h1>
+		</div>
+		<div class="contenedor__links">
+			<a class="links" href="index.html">Inicio</a>
+			<a class="links" href="ropa.html">Ropa</a>
+			<a class="links" href="">Tecnologia</a>
+		</div>
+		<div>
+			<a class="links" href="">Cerrar Sesion</a>
+		</div>
+		
+	</header>
+
+	<div class="titulo">
+		<h1>Bienvenido a la tienda online</h1>
+	</div>
+
+	<section class="section">
+		<p style="margin: 0 300px;">Este es un proyecto que surgio como una idea, para hacer un plataforma de tienda online y venta de articulos por medio de internet este sitio web esta echo en: <b>HTML</b>, <b>JAVASCRIPT</b>,<b>CSS</b>, <b>MYSQL</b> y <b>PHP</b>.<br><br>
+		Aqui vas a encontrar varias sesiones, una de inicio de bienvenida, otra de compra de ropa, de compra de objetos tecnologicos, una de promociones, una de contacto y la de cerrar sesion. El formulario de contacto va ser un medio de comunicacion entre el usuario que entre al sitio y el respectivo autor o creador de la plataforma, esto con el fin de generar criticas constructivas para promover la mejora de acuerdo al diseño, modelado, creatividad, recomendaciones, etc. <br><br>
+		Esta por el momento es una version beta del programa, y cuando se haya finalizado se subira al hosting, con su respectiva base de datos para un manejo mas funcional. Todo lo encontrado de acuerdo a contenido es solo pura especulacion, para fines de prueba, asi que no tomar en cuenta. <br><br></p>
+	</section>
+
+	<h1 class="titulo">Tecnologias Utilizadas</h1>
+	
+	<div style="display: flex; justify-content: center;">
+		<div class="contenedor__tecnologias">
+			<img class="logos" src="img/logo_html.png" alt="">
+			<img class="logos" src="img/logo_css.png" alt="">
+			<img class="logos" src="img/js-logo.png" alt="">
+			<img class="logos" src="img/logo_php.png">
+			<img class="logos" src="img/logo_sql.png">
+		</div>
+	</div>
+
+	<footer class="pie_pagina">
+		<h1>Contacto</h1>
+		<form class="formulario__contacto" action="mensaje_contacto.php" method="POST">
+			<input class="nombre_contacto" type="text" name="nombre" placeholder="Nombre">
+			<textarea class="mensaje__contacto" placeholder="Mensaje"
+			name="mensaje"></textarea>
+			<input class="btn__enviar" type="submit" name="" value="Enviar">
+		</form>
+		<h3>Diseñado por Nelson Muñoz</h3>
+	</footer>
+
+	<script src="js/funcion.js"></script>
+	
+
+	
+
+	
+</body>
+</html>

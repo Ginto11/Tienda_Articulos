@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Acme&family=Merriweather:wght@300&family=Permanent+Marker&family=Poppins&family=Roboto+Slab&family=Sansita+Swashed:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Sesion de Ropa</title>
+</head>
+<body>
+
+	<header class="encabezado">
+		
+		<div>
+			<h1 class="titulo__pagina">Tienda Online</h1>
+		</div>
+		<div class="contenedor__links">
+			<a class="links" href="index.html">Inicio</a>
+			<a class="links" href="ropa.html">Ropa</a>
+			<a class="links" href="">Tecnologia</a>
+		</div>
+		<div>
+			<a class="links" href="">Cerrar Sesion</a>
+		</div>
+		
+	</header>
+
+	<div id="titulo" class="titulo">
+		<h1>Productos a la Venta</h1>
+	</div>
+
+	<section id="productos__ventas" class="section">
+		
+		<div class="lista__productos">
+		
+			<div class="contenedor_producto">
+				<h3>Pantalon</h3>
+				<img class="img" src="img/pantalon.png">
+				<p class="descripcion"><b>Descripcion:</b> Pantalon jean de color azul talla 32.</p>
+				<h3 id="costo__pantalon">31.000 COP</h3>
+				<input id="pantalon" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Camiseta</h3>
+				<img class="img" src="img/camiseta.jpg">
+				<p class="descripcion"><b>Descripcion:</b> Camiseta de color azul talla S.</p>
+				<h3 id="costo__camiseta">20.000 COP</h3>
+				<input id="camiseta" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Tenis Nike</h3>
+				<img class="img" src="img/tenis.png">
+				<p class="descripcion"><b>Descripcion:</b> Tenis nike de color blanco talla 38.</p>
+				<h3 id="costo__tenis">80.000 COP</h3>
+				<input id="tenis" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Gafas de Sol</h3>
+				<img class="img" src="img/gafas.png">
+				<p class="descripcion"><b>Descripcion:</b> Gafas de sol con filtro de luz azul.</p>
+				<h3 id="costo__gafas">60.000 COP</h3>
+				<input id="gafas" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Gorro</h3>
+				<img class="img" src="img/gorro.jpg">
+				<p class="descripcion"><b>Descripcion:</b> Gorro de color negro</p>
+				<h3 id="costo__gorro">10.000 COP</h3>
+				<input id="gorro" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Buso</h3>
+				<img class="img" src="img/buso.jpg">
+				<p class="descripcion"><b>Descripcion:</b> Buso deportivo de color negro con gris.</p>
+				<h3 id="costo__buso">120.000 COP</h3>
+				<input id="buso" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Reloj</h3>
+				<img class="img" src="img/reloj.jpg">
+				<p class="descripcion"><b>Descripcion:</b> Reloj de plata original.</p>
+				<h3 id="costo__reloj">200.000 COP</h3>
+				<input id="reloj" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Manilla</h3>
+				<img class="img" src="img/manillas.jpg">
+				<p class="descripcion"><b>Descripcion:</b> Manilla de color negro, con tela y cuero.</p>
+				<h3 id="costo__manilla">28.000 COP</h3>
+				<input id="manilla" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Pantaloneta</h3>
+				<img class="img" src="img/pantaloneta.jpg">
+				<p class="descripcion"><b>Descripcion:</b> Pantaloneta deportiva de color blanco.</p>
+				<h3 id="costo__pantaloneta">30.000 COP</h3>
+				<input id="pantaloneta" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+
+			<div class="contenedor_producto">
+				<h3>Guantes</h3>
+				<img class="img" src="img/guantes.jpg">
+				<p class="descripcion"><b>Descripcion:</b> Guantes para moto de color negro.</p>
+				<h3 id="costo__guantes">24.000 COP</h3>
+				<input id="guantes" class="btn__agregar" type="submit" value="Agregar">
+			</div>
+		</div>
+
+		<div class="contenedor__inputs">
+			<input type="submit" id="link__comprar" class="btn" value="Comprar">
+			<input type="number" name="" id="mostrar__elementos" class="elementos" disabled="" value="0">
+			<input type="submit" id="link__reiniciar" class="btn" value="Vaciar Carrito">
+		</div>
+	</section>
+
+	<div id="formulario__pago" class="section__pagos" class="active__form">
+			
+			<img class="img__pago" src="img/pago.jpg">
+			<form class="formulario__pago" action="pago.php" method="POST">
+
+				<h1>Pago</h1>
+
+				<label class="label__inputs" for="nombre"> Nombre y Apellido<br>
+					<input class="inputs__pago" type="text" name="nombre">
+				</label>
+
+				<label class="label__inputs" for="subtotal"> Subtotal <br>
+					<input id="subtotal" class="inputs__pago" type="number" name="subtotal" readonly="">
+				</label>
+
+				<label class="label__inputs" for="iva"> Iva <br>
+					<input id="iva" class="inputs__pago" type="number" name="iva" readonly="">
+				</label>
+
+				<label class="label__inputs" for="total"> Pago neto <br>
+					<input id="valorPagar" class="inputs__pago" type="number" name="total" readonly="">
+				</label>
+
+				<label class="label__inputs" for="direccion"> Direccion <br>
+					<input type="text" id="direccion" type="text" name="direccion" class="inputs__pago">
+				</label>
+
+				<label class="label__inputs" for="elementos"> Elementos <br>
+					<input type="text" id="lista__elementos" name="elementos" class="inputs__pago textarea">
+				</label>
+
+				<label class="label__inputs" for="valor_pagado"> ¿Cuanto desea pagar? <br>
+					<input id="valor__pago" class="inputs__pago" type="number" name="valor_pagado">
+				</label>
+
+				<div>
+					<input type="submit" id="btn__pagar" class="btn__formulario--pago" name="pagar" value="Pagar">
+					<input type="submit" value="Regresar" class="btn__formulario--pago">
+				</div>
+				
+			</form>
+		</div>
+
+			
+	</div>
+
+	<footer class="pie_pagina">
+		<h1>Contacto</h1>
+		<form class="formulario__contacto" action="mensaje_contacto.php" method="POST">
+			<input class="nombre_contacto" type="text" name="nombre" placeholder="Nombre">
+			<textarea class="mensaje__contacto" placeholder="Mensaje" name="mensaje"></textarea>
+			<input class="btn__enviar" type="submit" name="" value="Enviar">
+		</form>
+		<h3>Diseñado por Nelson Muñoz</h3>
+	</footer>
+	
+
+	
+	
+
+	<script src="js/funcion.js"></script>
+	
+</body>
+</html>
